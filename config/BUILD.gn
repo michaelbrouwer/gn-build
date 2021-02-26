@@ -1340,7 +1340,7 @@ config("default_libs") {
       "m",
     ]
   } else if (is_mac) {
-    libs = [
+    frameworks = [
       "AppKit.framework",
       "ApplicationServices.framework",
       "Carbon.framework",
